@@ -27,7 +27,7 @@ email=kenji.ose@teledetection.fr
 tags=
 
 homepage=http://equipex-geosud.fr/
-tracker=http://hub.qgis.org/projects/kenoz/issues
+tracker=http://hub.qgis.org/projects/geosudreftoa/issues
 repository=https://github.com/kenoz/GeosudRefToa
 icon=icon.png
 # experimental flag
