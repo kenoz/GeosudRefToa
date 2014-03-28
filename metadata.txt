@@ -12,7 +12,7 @@
 name=Geosud Toa Reflectance
 qgisMinimumVersion=2.0
 description=TOA reflectance conversion for Geosud satellite data
-version=0.1
+version=0.2
 author=Kenji Ose (Irstea)
 email=kenji.ose@teledetection.fr
 
