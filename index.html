@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+
+  
+  
+  <title>Plugin QGis : Geosud - Reflectance TOA</title>
+</head>
+
+
+<body style="margin-left: 83px; width: 900px; color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+
+
+<h1 style="text-align: justify; background-color: rgb(204, 255, 255);">Geosud : Reflectance TOA</h1>
+
+
+<h2 style="text-align: justify;">1. What is Equipex Geosud ?</h2>
+
+
+<div style="text-align: justify;">The Equipex GEOSUD ("GeoInformation
+for Sustainable Development") is an initiative coordinated by Irstea
+(UMR TETIS) to serve the scientific and management public actors (state
+agencies, local authorities, associations, ...) funded in the framework
+of the French Programme &laquo; Investissements d&rsquo;Avenir &raquo;
+. Equipex GEOSUD aims at establishing a national satellite data
+infrastructure freely accessible to public actors. It will :<br>
+
+
+<ul>
+
+
+  <li>provide for five years (2011-2015) annual high resolution satellite coverage of France and of regions in South countries, </li>
+
+
+  <li>make processing capacities and tools available to public actors,&nbsp;</li>
+
+
+  <li>develop innovative methods for data processing and analysis, </li>
+
+
+  <li>support the networking of scientific community and the community of land management actors.</li>
+
+
+</ul>
+
+
+For more informations : see the official website&nbsp;<a target="_blank" href="http://equipex-geosud.fr/">equipex-geosud.fr</a><br>
+
+
+</div>
+
+
+<h2 style="text-align: justify;">2. Plugin functionnalities</h2>
+
+
+<div style="text-align: justify;">The plugin is dedicated to Geosud
+data. However, it should be used for satellite images acquired in other
+ways. It converts Digital Numbers (DN) to Top of Atmosphere (ToA)
+Reflectance for three types of instrument : RapidEye, Spot 5 and
+Landsat 8.<br>
+
+
+<h3>How to use it ?</h3>
+
+
+<ol>
+
+
+  <li>Select an instrument</li>
+
+
+  <li>Select an image (for RapidEye or Spot 5) or spectral band(s) (for Landsat 8)</li>
+
+
+  <li>Select the metadata file. The button '<em>auto</em>' tries to load automatically the metadata file.</li>
+
+
+  <li>Click on the button '<em>get TOA Parameters</em>' in order to find required parameters</li>
+
+
+  <li>Select the output format : reflectance 32 bits [0-1], or milli-reflectance 16 bits [0-1000]</li>
+
+
+  <li>Select the output directory (optional, by default the output file is written in the input file's directory)</li>
+
+
+  <li>Click on the button convert '<em>DN to TOA</em>' (be patient... The process could be quite long...)</li>
+
+
+</ol>
+
+
+<h3>Limitations</h3>
+
+
+The plugin only works with GeoTIFF files.<br>
+For RapidEye and Spot images, the order of spectral bands&nbsp;must be as follows:<br>
+<br>
+<table style="text-align: left; width: 628px; height: 88px;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="background-color: rgb(204, 255, 255); text-align: center;">Instrument</td>
+      <td style="text-align: center; background-color: rgb(204, 255, 255);">band 1</td>
+      <td style="text-align: center; background-color: rgb(204, 255, 255);">band 2</td>
+      <td style="text-align: center; background-color: rgb(204, 255, 255);">band 3</td>
+      <td style="text-align: center; background-color: rgb(204, 255, 255);">band 4</td>
+      <td style="text-align: center; background-color: rgb(204, 255, 255);">band 5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">RapidEye</td>
+      <td style="text-align: center;">blue</td>
+      <td style="text-align: center;">green</td>
+      <td style="text-align: center;">red</td>
+      <td style="text-align: center;">rededge</td>
+      <td style="text-align: center;">nir</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Spot 5</td>
+      <td style="text-align: center;">nir</td>
+      <td style="text-align: center;">red</td>
+      <td style="text-align: center;">green</td>
+      <td style="text-align: center;">swir</td>
+      <td style="text-align: center;">-</td>
+    </tr>
+  </tbody>
+</table>
+<h2>3. References</h2>
+<ul>
+  <li>
+
+RapidEye product specifications: &nbsp;&nbsp;&nbsp; http://www.blackbridge.com/rapideye/upload/RE_Product_Specifications_ENG.pdf</li>
+  <li>
+
+Spot 5 product specifications : &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+http://www.astrium-geo.com/en/191-spot-technical-information</li>
+  <li>
+
+Landsat 8 product specifications : &nbsp;&nbsp;&nbsp;http://landsat.usgs.gov/Landsat8_Using_Product.php</li>
+</ul>
+</div>
+
+
+<h2 style="text-align: justify;">4. Credits</h2>
+
+
+Kenji Ose<br>
+
+
+Irstea - UMR Tetis<br>
+
+
+<a target="_blank" href="http://equipex-geosud.fr/">equipex-geosud.fr</a><br>
+
+
+2014<br>
+
+
+<img style="width: 124px; height: 62px;" alt="logo Equipex Geosud" src="http://equipex-geosud.fr/image/layout_set_logo?img_id=10606&amp;t=1392886960669">
+</body>
+</html>

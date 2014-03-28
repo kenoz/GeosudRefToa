@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:xt="http://ns.inria.org/xtiger">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title><xt:use types="string" label="title">Geosud: Reflectance
+  TOA</xt:use></title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+
+  <xt:head version="0.9" templateVersion="1.0">
+  </xt:head>
+</head>
+
+<body>
+<h1><code><strong><code>Geosud : Reflectance
+TOA</code></strong></code></h1>
+
+<h2><strong><code><strong><code><strong>1. What is Equipex Geosud
+?</strong></code></strong></code></strong></h2>
+
+<p><strong><code><strong><code><strong><img alt="" src="icon_geosud.png"
+width="80" height="40" /></strong></code></strong></code></strong></p>
+
+<p style="text-align:justify;"><strong><code><strong><code><strong>The Equipex
+GEOSUD ("GeoInformation for Sustainable Development") is an initiative
+coordinated by Irstea (UMR TETIS) to serve the scientific and management public
+actors (state agencies, local authorities, private operators, associations)
+funded in the framework of the French Programme « Investissements d’Avenir
+» .</strong></code></strong></code></strong></p>
+<pre style="text-align:justify;"><strong><code><strong><code><strong>Equipex GEOSUD aims at establishing a national satellite data infrastructure freely accessible to public actors. It will :</strong></code></strong></code></strong></pre>
+<ul>
+  <li style="text-align:justify;"><strong><code><strong><code><strong>provide
+    for five years (2011-2015) annual high resolution satellite coverage of
+    France and of regions in South countries,
+    </strong></code></strong></code></strong></li>
+  <li style="text-align:justify;"><strong><code><strong><code><strong>make
+    processing capacities and tools available to public actors, it will develop
+    innovative methods for data processing and analysis,
+    </strong></code></strong></code></strong></li>
+  <li style="text-align:justify;"><strong><code><strong><code><strong>support
+    the networking of scientific community and the community of land management
+    actors.</strong></code></strong></code></strong></li>
+</ul>
+
+<p><strong><code><strong><code><strong>For more informations : see the official
+<a href="http://equipex-geosud.fr/">Web
+Site</a></strong></code></strong></code></strong></p>
+
+<h2><strong><code><strong><code><strong>2. Plugin
+functionnalities</strong></code></strong></code></strong></h2>
+<pre><strong><code><strong><code><strong>The plugin is dedicated to Geosud data. However, it should be possible to use it for satellite images acquired in other ways. It converts Digital Numbers (DN) to Top of Atmosphere (ToA) Reflectance for three types of instrument : RapidEye, Spot 5 and Landsat 8.</strong></code></strong></code></strong></pre>
+
+<p><strong><code><strong><code><strong></strong></code></strong></code></strong></p>
+
+<p><strong><code><strong><code><strong></strong></code></strong></code></strong></p>
+
+<h2><code><strong><code><strong>3. Credits</strong></code></strong></code></h2>
+
+<p><code><strong><code><strong></strong></code></strong></code></p>
+
+<p><code><strong><code><strong></strong></code></strong></code></p>
+</body>
+</html>

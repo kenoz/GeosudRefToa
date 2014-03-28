@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/geosudreftoa" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
